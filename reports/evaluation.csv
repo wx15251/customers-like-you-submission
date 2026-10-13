@@ -1,0 +1,3 @@
+method,k,hit_customers,eligible_customers,hit_rate_at_10,baseline_hit_customers,baseline_hit_rate_at_10,difference_percentage_points
+SVD,50,406,1910,0.21256544502617802,332,0.17382198952879582,3.87434554973822
+PCA,50,411,1910,0.21518324607329842,332,0.17382198952879582,4.136125654450259

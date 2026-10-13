@@ -1,0 +1,21 @@
+{
+  "test_start_inclusive": "2011-10-10 00:00:00",
+  "test_end_exclusive": "2011-12-10 00:00:00",
+  "training_lines": 684930,
+  "test_period_lines": 117721,
+  "test_customers_total": 2408,
+  "test_customer_product_pairs": 94306,
+  "new_customer_product_pairs": 62625,
+  "repeat_pairs_excluded": 31681,
+  "novel_pairs_unknown_customer": 13279,
+  "novel_pairs_known_customer_unavailable_product": 4602,
+  "evaluable_novel_pairs": 44744,
+  "evaluable_customers": 1910,
+  "novel_customers_total": 2296,
+  "novel_pair_coverage_percent": 71.44750499001997,
+  "novel_customer_coverage_percent": 83.18815331010452,
+  "training_products_before_filter": 4532,
+  "training_customers_before_filter": 5483,
+  "training_customers_lost_to_filter": 1,
+  "minimum_training_customer_support": 10
+}

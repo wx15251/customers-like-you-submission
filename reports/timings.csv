@@ -1,0 +1,3 @@
+method,fit_seconds,factor_transform_seconds,catalogue_refresh_seconds,all_customer_scoring_seconds,fit_plus_catalogue_seconds,model_refresh_total_seconds,product_zero_vector_fallbacks,customer_zero_profile_fallbacks
+SVD,0.2926461659371853,0.00653545802924782,0.7439167499542236,1.1335975830443203,1.036562915891409,2.176695956964977,0,0
+PCA,0.311058416031301,0.0077177080092951655,0.7066458329791203,1.105306833051145,1.0177042490104213,2.1307287900708616,0,0

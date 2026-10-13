@@ -1,0 +1,10 @@
+data/
+.venv/
+tmp/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+*.pyc
+online_retail_II.xlsx
+/Mini-Project#01.pdf
+/submission.zip

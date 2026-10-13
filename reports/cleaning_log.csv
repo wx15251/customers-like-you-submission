@@ -1,0 +1,7 @@
+rule,rows_before,rows_removed,rows_after
+Cancellation invoice (C prefix),1067371,19494,1047877
+Non-positive or invalid quantity,1047877,3457,1044420
+Non-positive or invalid price,1044420,2750,1041670
+"Non-product, voucher, sample or test code",1041670,4649,1037021
+Missing or invalid customer ID,1037021,234370,802651
+"Missing date, invoice or stock code",802651,0,802651

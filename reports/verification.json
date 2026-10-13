@@ -1,0 +1,16 @@
+{
+  "two_sheets_loaded": true,
+  "cleaning_counts_reconcile": true,
+  "training_precedes_test": true,
+  "test_targets_absent_from_full_training_history": true,
+  "positive_finite_sparse_values": true,
+  "no_test_target_in_matrix": true,
+  "same_model_k": true,
+  "same_model_test_denominator": true,
+  "recommendations_distinct_and_unseen": true,
+  "baseline_distinct_and_unseen": true,
+  "svd_projection_identity_check": true,
+  "pca_projection_identity_check": true,
+  "segment_membership_complete": true,
+  "selected_k_frozen_before_evaluation": true
+}

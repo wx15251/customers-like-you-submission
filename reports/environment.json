@@ -1,0 +1,35 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "logical_cpus": 6,
+  "numerical_threads": 1,
+  "seed": 42,
+  "raw_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "openpyxl": "3.1.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nbconvert": "7.17.2",
+    "ipykernel": "7.4.0",
+    "psutil": "7.2.2",
+    "threadpoolctl": "3.7.0",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0"
+  },
+  "raw_load_seconds": 34.2017576249782,
+  "threadpools": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "filepath": "/Users/jc/Desktop/customers_like_you/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+      "version": null
+    }
+  ]
+}

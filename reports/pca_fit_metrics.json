@@ -1,0 +1,16 @@
+{
+  "method": "PCA",
+  "k": 50,
+  "fit_seconds": 0.311058416031301,
+  "transform_seconds": 0.0077177080092951655,
+  "peak_fit_rss_mb": 166.445056,
+  "baseline_rss_mb": 151.273472,
+  "peak_increment_mb": 15.171584,
+  "factor_bytes": 3698720,
+  "relative_reconstruction_error": 0.7891155564667617,
+  "relative_centred_error": 0.8067360817487452,
+  "explained_variance_ratio": 0.34917689440468186,
+  "orthogonality_checked": true,
+  "small_dense_error_check": true,
+  "sampling_interval_seconds": 0.002
+}

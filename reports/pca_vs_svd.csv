@@ -1,0 +1,9 @@
+Measure,PCA,Truncated SVD
+k used,50,50
+Fit time (seconds),0.3111,0.2926
+Peak memory during fit (MB; sampled total RSS),166.445,150.307
+Size of stored factors (MB),3.699,3.669
+Variance explained or relative reconstruction error,Explained variance: 34.92%,Relative Frobenius error: 0.7895
+Hit rate at 10 on held-out purchases,21.52%,21.26%
+Best-seller baseline hit rate at 10,17.38%,17.38%
+What component 1 represents,Centred purchase-volume variation; correlation with log-weighted purchase volume +0.968. See product loadings.,Uncentred purchase intensity; correlation with log-weighted purchase volume +0.968. See product loadings.

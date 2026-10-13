@@ -1,0 +1,25 @@
+sheet,column,dtype,rows,missing,missing_percent
+Year 2009-2010,Invoice,string,525461,0,0.0
+Year 2009-2010,StockCode,string,525461,0,0.0
+Year 2009-2010,Description,object,525461,2928,0.5572249891048051
+Year 2009-2010,Quantity,int64,525461,0,0.0
+Year 2009-2010,InvoiceDate,datetime64[ns],525461,0,0.0
+Year 2009-2010,Price,float64,525461,0,0.0
+Year 2009-2010,Customer ID,float64,525461,107927,20.53948818275762
+Year 2009-2010,Country,object,525461,0,0.0
+Year 2010-2011,Invoice,string,541910,0,0.0
+Year 2010-2011,StockCode,string,541910,0,0.0
+Year 2010-2011,Description,object,541910,1454,0.26831023601705084
+Year 2010-2011,Quantity,int64,541910,0,0.0
+Year 2010-2011,InvoiceDate,datetime64[ns],541910,0,0.0
+Year 2010-2011,Price,float64,541910,0,0.0
+Year 2010-2011,Customer ID,float64,541910,135080,24.92664833643963
+Year 2010-2011,Country,object,541910,0,0.0
+Combined,Invoice,string,1067371,0,0.0
+Combined,StockCode,string,1067371,0,0.0
+Combined,Description,object,1067371,4382,0.4105414143723223
+Combined,Quantity,int64,1067371,0,0.0
+Combined,InvoiceDate,datetime64[ns],1067371,0,0.0
+Combined,Price,float64,1067371,0,0.0
+Combined,Customer ID,float64,1067371,243007,22.766872999172733
+Combined,Country,object,1067371,0,0.0

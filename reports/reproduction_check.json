@@ -1,0 +1,28 @@
+{
+  "fresh_kernel_runs": 2,
+  "comparison": "SHA-256 of array contents, excluding timings and PDF metadata",
+  "all_arrays_identical": true,
+  "arrays_checked": {
+    "svd_k50.npz:components": true,
+    "svd_k50.npz:scores": true,
+    "svd_k50.npz:singular_values": true,
+    "svd_k50.npz:mean": true,
+    "pca_k50.npz:components": true,
+    "pca_k50.npz:scores": true,
+    "pca_k50.npz:singular_values": true,
+    "pca_k50.npz:mean": true,
+    "svd_recommendations.npz:product_neighbours": true,
+    "svd_recommendations.npz:product_cosines": true,
+    "svd_recommendations.npz:customer_recommendations": true,
+    "pca_recommendations.npz:product_neighbours": true,
+    "pca_recommendations.npz:product_cosines": true,
+    "pca_recommendations.npz:customer_recommendations": true,
+    "customer_segments.npz:anonymous_row": true,
+    "customer_segments.npz:coordinates": true,
+    "customer_segments.npz:group": true,
+    "test_targets.npz:customer_rows": true,
+    "test_targets.npz:product_columns": true
+  },
+  "executed_code_cells": 10,
+  "all_cells_executed_without_error": true
+}

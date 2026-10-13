@@ -1,0 +1,25 @@
+Customers Like You - decisions and brief reasons
+2026-10-13
+
+01. Scope: DE1-DE5, ML1-ML6, J1-J2 and individual documentation; omit DE6, ML7 and slides, as requested.
+02. Main method: Truncated SVD keeps the largest singular values and strongest joint purchase patterns while operating directly on sparse, uncentred data. PCA remains the required comparison.
+03. Reproduction: one executable notebook rebuilds the matrix and reports; the brief permits this instead of the stretch standalone build_matrix.py.
+04. Values: log(1 + total positive units) per customer-product pair, aggregating before the log; this reduces wholesale-volume dominance without discarding purchase intensity.
+05. Catalogue: at least 10 distinct training customers per product; this limits poorly supported factors. Count and disclose excluded test targets.
+06. Evaluation: final two calendar months in a rolling window ending after the last date; only new-to-customer products are targets. Training alone supplies factors, filters, profiles and best sellers.
+07. Rank: test k=10,20,50,100,200 and choose from training reconstruction error, storage and time before reading final test hit rates. No sensitivity experiment or test-based tuning.
+08. Privacy: raw data, transaction files and customer maps stay in ignored data/; figures and notebook outputs show only aggregates or anonymous row indices.
+09. Tools: Python is needed for sparse matrices and SVD/PCA; the source workbook is read unchanged, and report tables are CSV interchange files.
+10. Repeated lines: retain exact repeats because no line-level key establishes that they are errors; report their count. Remove explicit fees, adjustments, vouchers, samples and test products, keeping genuine alphanumeric merchandise.
+11. Similarity: cosine between rows of V_k, as in the brief; customer scores sum similarities weighted by log purchase quantity. This ties customer ranking to the product-page method.
+12. Baseline: total positive training units sold; walk its ranking until 10 unseen products remain per customer, so both methods receive equal-length candidate lists.
+13. Rank rule: select the largest gap below the straight endpoint chord on the linear k/error plot, among ranks meeting the dense-storage and fit-time targets; this gives a reproducible elbow without test feedback.
+14. Measurement: float64, one numerical-library thread, identical matrix and scoring rules for both methods; isolate fits and sample process RSS every 2 ms for comparable peak-memory estimates.
+15. Test window: [2011-10-10, 2011-12-10); evaluate known customers with retained novel products, and report coverage so cold-start exclusions are visible.
+16. Chosen k=50: maximum feasible training-curve elbow gap (0.155); this was selected before final test hit rates. Keep the rank fixed for PCA.
+17. Map: standardise the first two training SVD coordinates for k-means, giving each axis equal weight; select 3 groups by the largest sampled silhouette among 3-6. Plot original coordinates and name groups from product prevalence lift.
+18. Final test results are reported as observed; no rank, filter, weighting or scoring change follows test evaluation. Compression does not establish recommendation quality.
+19. Segment names: reviewed against training product profiles and purchase breadth; describe assortments, without inferring demographics. They remain exploratory marketing groups.
+20. Authorship: record Codex assistance in the contribution log and mark the personal reflection as a draft for student review; use the Git identity supplied by James Cottrell.
+21. Performance claims: keep local timing and sampled memory estimates separate from recommendation quality; memory ordering reversed across two runs, so no consistent memory advantage is claimed.
+22. Cheat sheet: one single-sided US Letter page with dense, selectable text, covering architecture, choices, formulas, measured evidence and limits as requested.
