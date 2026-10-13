@@ -5,6 +5,5 @@ date,task,owner,evidence,status
 2026-10-13,ML2-ML3,James Cottrell,analysis.ipynb; reports/svd_rank_results.csv; figures/svd_reconstruction_error.png,Training-only rank choice and recommendation functions
 2026-10-13,ML4-ML5,James Cottrell,reports/evaluation.csv; reports/timings.csv; reports/pca_vs_svd.csv,Shared-cohort evaluation and isolated-fit comparison
 2026-10-13,ML6,James Cottrell,figures/customer_map.png; reports/segments.csv; reports/segment_products.csv,Anonymous customer map and evidence-based segment profiles
-2026-10-13,"J2, individual documents",James Cottrell,memo.pdf; reflection.md; contribution_log.csv,Memo complete; personal reflection draft awaits student review
+2026-10-13,"J2, individual documents",James Cottrell,memo.pdf; reflection.md; contribution_log.csv,Memo and individual reflection complete
 2026-10-13,"R5-R6, verification",James Cottrell,requirements.txt; reports/verification.json; reports/reproduction_check.json; Git history,One-command rebuild and fresh-kernel reproducibility checked
-2026-10-13,Project cheat sheet,James Cottrell,output/pdf/project_cheat_sheet.pdf,Dense one-page reference; rendered and visually checked

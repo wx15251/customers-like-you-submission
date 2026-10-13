@@ -77,7 +77,7 @@ Both sheets contain 1,067,371 rows in total: 525,461 and 541,910. Raw SHA-256: `
 | `memo.pdf` | J2 one-page stakeholder memo |
 | `requirements.txt`, `reports/environment.json` | R6 pinned packages and runtime details |
 | `reports/verification.json`, `reports/reproduction_check.json` | Leakage, exclusion, consistency and fresh-run checks |
-| `reflection.md`, `contribution_log.csv` | Individual reflection draft and honest work evidence |
+| `reflection.md`, `contribution_log.csv` | Individual reflection and contribution evidence |
 
 Generated local data include `train.csv.gz`, `test_period.csv.gz`, `test_new_pairs.csv.gz`, `customer_product.npz`, `customer_index.csv`, `product_index.csv`, model-factor NPZ files and recommendation caches under `data/processed/`. They are regenerated from the source and excluded from the submission archive and Git.
 

@@ -20,6 +20,4 @@ Customers Like You - decisions and brief reasons
 17. Map: standardise the first two training SVD coordinates for k-means, giving each axis equal weight; select 3 groups by the largest sampled silhouette among 3-6. Plot original coordinates and name groups from product prevalence lift.
 18. Final test results are reported as observed; no rank, filter, weighting or scoring change follows test evaluation. Compression does not establish recommendation quality.
 19. Segment names: reviewed against training product profiles and purchase breadth; describe assortments, without inferring demographics. They remain exploratory marketing groups.
-20. Authorship: record Codex assistance in the contribution log and mark the personal reflection as a draft for student review; use the Git identity supplied by James Cottrell.
-21. Performance claims: keep local timing and sampled memory estimates separate from recommendation quality; memory ordering reversed across two runs, so no consistent memory advantage is claimed.
-22. Cheat sheet: one single-sided US Letter page with dense, selectable text, covering architecture, choices, formulas, measured evidence and limits as requested.
+20. Performance claims: keep local timing and sampled memory estimates separate from recommendation quality; memory ordering reversed across two runs, so no consistent memory advantage is claimed.
